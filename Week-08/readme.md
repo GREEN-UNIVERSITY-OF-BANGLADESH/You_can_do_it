@@ -11,4 +11,6 @@
 - [09](https://www.codechef.com/problems/PALL01)
 - [10](https://www.codechef.com/problems/ZOOZ)
 
+### Note: C is not allowed!
+
 
