@@ -1,0 +1,15 @@
+// Red light, Green Light.....
+
+void solve()
+{
+    int t;
+    cin >> t;
+    while (t--) {
+        int n, h;
+        cin >> n >> h;
+        int v[n];
+        for (int i = 0; i < n; ++i) cin >> v[i];
+        sort(v, v + n);
+        cout << upper_bound(v, v + n, v[n - 1]) - upper_bound(v, v + n, h) << '\n';
+    }
+}
