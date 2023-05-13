@@ -1,0 +1,15 @@
+// Min to Max.....
+
+void solve()
+{
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        int v[n];
+        for (auto &x : v) cin >> x;
+        sort(v, v + n);
+        cout << upper_bound(v, v + n, v[n - 1]) - upper_bound(v, v + n, v[0]) << '\n';
+    }
+}
