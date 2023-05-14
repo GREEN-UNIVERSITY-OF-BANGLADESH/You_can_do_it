@@ -15,4 +15,5 @@ int main() {
         }
         cout << j << endl;
     }
+    return 0;
 }
