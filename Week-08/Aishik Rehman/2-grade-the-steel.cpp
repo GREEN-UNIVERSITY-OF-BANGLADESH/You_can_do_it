@@ -11,8 +11,7 @@ int main() {
         int grade = 5; 
         if (hardness>50 && carbon<0.7 && tensile>5600){
             grade = 10;
-        } 
-        else if (hardness>50 && carbon<0.7){
+        } else if (hardness>50 && carbon<0.7){
             grade = 9;
         } else if (carbon<0.7 && tensile>5600){
             grade = 8;
