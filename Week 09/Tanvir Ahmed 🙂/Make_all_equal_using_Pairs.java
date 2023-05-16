@@ -8,7 +8,7 @@ public class Make_all_equal_using_Pairs {
         while(t-->0){
             int n = sc.nextInt(); // array size
             int ar[] = new int[n];
-            int frequency [] = new int [1001]; // for calculate the frequecy of the element in the array
+            int frequency [] = new int [1001]; // for calculate the frequecy of the element in the array.
             for (int i = 0; i < n; i++) { // for array initialization
                 ar[i] = sc.nextInt(); // take all element of array
                 frequency[ar[i]]++; // initialize the frequency
