@@ -1,0 +1,24 @@
+// Chef and Happy String......
+
+bool check(char &ch) {
+    return (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
+}
+void solve()
+{
+    int t;
+    cin >> t;
+    while (t--) {
+        string s;
+        cin >> s;
+        int cnt = 0, mx = 0;
+        for (auto &x : s) {
+            if (check(x)) {
+                cnt++;
+                mx = max(mx, cnt);
+            }
+            else cnt = 0;
+        }
+        if (mx > 2) cout << "Happy\n";
+        else cout << "Sad\n";
+    }
+}
