@@ -1,0 +1,21 @@
+// The great run....
+
+void solve()
+{
+    int t;
+    cin >> t;
+    while (t--) {
+        int n, k;
+        cin >> n >> k;
+        vector<int> v(n + 1), hsh(n + 1, 0);
+        for (int i = 1; i <= n; ++i) {
+            cin >> v[i];
+            hsh[i] = hsh[i - 1] + v[i];
+        }
+        int mxV = 0;
+        for (int i = k; i <= n; ++i) {
+            mxV = max((hsh[i] - hsh[i-k] ), mxV);
+        }
+        cout << mxV << '\n';
+    }
+}
