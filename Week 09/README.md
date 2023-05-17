@@ -10,6 +10,5 @@
 - [07](https://www.codechef.com/problems/DIGARR)
 - [08](https://www.codechef.com/problems/HAPPYSTR)
 - [09](https://www.codechef.com/problems/SNAKPROC)
-- [10](https://www.codechef.com/problems/SNAKPROC)
 
 ### Note: C is not allowed!
