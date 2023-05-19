@@ -13,6 +13,23 @@
         int t;
         cin >> t;
         cin.ignore();
+        while (t--)
+        {
+            int n;
+            cin>>n;
+            int a[n];
+            int f[1001];
+            for (int i = 0; i < n; i++)
+            {
+                cin>>a[i];
+                f[a[i]]++;
+            }
+            int s = sizeof(a)/ sizeof(a[0]);
+            sort(a, a+s);
+            cout<< n-a[1001] <<endl;
+            
+        }
+        
         
    
         return 0;
