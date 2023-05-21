@@ -1,7 +1,7 @@
     // Writter      : @JahidulZaid
     // Problem Link : https://www.codechef.com/problems/PAIREQ
     // Language     : c++
-    // Date         : 17/5/2023
+    // Date         : 19/5/2023
     // Submission   : 
     #include <bits/stdc++.h>
     using namespace std;
